@@ -1,0 +1,65 @@
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects					Movies
+Applications						Music
+data							new part .ipynb
+Desktop							OneDrive - American International University-Bangladesh
+Documents						OS_LAB2
+Downloads						OS_Practice
+File1							Pictures
+Google Drive						Postman
+Library							Public
+mongodb-macos-aarch64-8.0.12				PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % mkdir LabPerformance1_Ahsam
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd LabPerformance1_Ahsam
+(base) ahsam@MDs-MacBook-Air-2 LabPerformance1_Ahsam % mkdir dir1 dir2
+(base) ahsam@MDs-MacBook-Air-2 LabPerformance1_Ahsam % ls
+dir1	dir2
+(base) ahsam@MDs-MacBook-Air-2 LabPerformance1_Ahsam % cd dir1
+(base) ahsam@MDs-MacBook-Air-2 dir1 % ls
+(base) ahsam@MDs-MacBook-Air-2 dir1 % cat>file1.txt
+this is my first text file 
+(base) ahsam@MDs-MacBook-Air-2 dir1 % ls
+file1.txt
+(base) ahsam@MDs-MacBook-Air-2 dir1 % cp file1.txt dir2
+(base) ahsam@MDs-MacBook-Air-2 dir1 % ls
+dir2		file1.txt
+(base) ahsam@MDs-MacBook-Air-2 dir1 % cd dir2
+cd: not a directory: dir2
+(base) ahsam@MDs-MacBook-Air-2 dir1 % pdw
+zsh: command not found: pdw
+(base) ahsam@MDs-MacBook-Air-2 dir1 % pwd
+/Users/ahsam/LabPerformance1_Ahsam/dir1
+(base) ahsam@MDs-MacBook-Air-2 dir1 % ls
+dir2		file1.txt
+(base) ahsam@MDs-MacBook-Air-2 dir1 % cp file1.txt dir1 dir2
+cp: dir2: Not a directory
+(base) ahsam@MDs-MacBook-Air-2 dir1 % cd
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects					Movies
+Applications						Music
+data							new part .ipynb
+Desktop							OneDrive - American International University-Bangladesh
+Documents						OS_LAB2
+Downloads						OS_Practice
+File1							Pictures
+Google Drive						Postman
+LabPerformance1_Ahsam					Public
+Library							PycharmProjects
+mongodb-macos-aarch64-8.0.12
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd LabPerformance1_Ahsam
+(base) ahsam@MDs-MacBook-Air-2 LabPerformance1_Ahsam % ls
+dir1	dir2
+(base) ahsam@MDs-MacBook-Air-2 LabPerformance1_Ahsam % cd dir1
+(base) ahsam@MDs-MacBook-Air-2 dir1 % ls
+dir2		file1.txt
+(base) ahsam@MDs-MacBook-Air-2 dir1 % cp file1.txt /Users/ahsam/LabPerformance1_Ahsam/dir2
+(base) ahsam@MDs-MacBook-Air-2 dir1 % cd ..
+(base) ahsam@MDs-MacBook-Air-2 LabPerformance1_Ahsam % ls
+dir1	dir2
+(base) ahsam@MDs-MacBook-Air-2 LabPerformance1_Ahsam % cd dir2
+(base) ahsam@MDs-MacBook-Air-2 dir2 % ls
+file1.txt
+(base) ahsam@MDs-MacBook-Air-2 dir2 % mv file1.txt renamedfile.txt
+(base) ahsam@MDs-MacBook-Air-2 dir2 % ls
+renamedfile.txt
+(base) ahsam@MDs-MacBook-Air-2 dir2 % 
