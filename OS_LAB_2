@@ -1,0 +1,32 @@
+Last login: Tue Oct 28 15:30:55 on ttys000
+(base) ahsam@MDs-MacBook-Air-2 ~ % 
+(base) ahsam@MDs-MacBook-Air-2 ~ % mkdir OS_LAB2
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+File1
+Google Drive
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd OS_LAB2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % mkdir OS_LAB_SUB_2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % cd OS_LAB_SUB_3
+cd: no such file or directory: OS_LAB_SUB_3
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % cd OS_LAB_SUB_2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB_SUB_2 % mkdir OS_LAB_SUB_3
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB_SUB_2 % cd OS_LAB_SUB_3   
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB_SUB_3 % 
