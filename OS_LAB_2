@@ -30,3 +30,152 @@ cd: no such file or directory: OS_LAB_SUB_3
 (base) ahsam@MDs-MacBook-Air-2 OS_LAB_SUB_2 % mkdir OS_LAB_SUB_3
 (base) ahsam@MDs-MacBook-Air-2 OS_LAB_SUB_2 % cd OS_LAB_SUB_3   
 (base) ahsam@MDs-MacBook-Air-2 OS_LAB_SUB_3 % 
+
+
+
+Last login: Tue Oct 28 15:31:22 on ttys000
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+File1
+Google Drive
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd OS_LAB2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % mkdir D1
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % cd D1
+(base) ahsam@MDs-MacBook-Air-2 D1 % mkdir D2
+(base) ahsam@MDs-MacBook-Air-2 D1 % cd D2
+(base) ahsam@MDs-MacBook-Air-2 D2 % mkdir D3
+(base) ahsam@MDs-MacBook-Air-2 D2 % cd D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % cd
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+File1
+Google Drive
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd OS_LAB2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % ls
+D1		OS_LAB_SUB_2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % cd D1
+(base) ahsam@MDs-MacBook-Air-2 D1 % cd D2
+(base) ahsam@MDs-MacBook-Air-2 D2 % cd D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % cd ..
+(base) ahsam@MDs-MacBook-Air-2 D2 % pwd
+/Users/ahsam/OS_LAB2/D1/D2
+(base) ahsam@MDs-MacBook-Air-2 D2 % cd D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % pwd
+/Users/ahsam/OS_LAB2/D1/D2/D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % cd 
+(base) ahsam@MDs-MacBook-Air-2 ~ % ~/OS_LAB2/D1/D2
+zsh: permission denied: /Users/ahsam/OS_LAB2/D1/D2
+(base) ahsam@MDs-MacBook-Air-2 ~ % pwd            
+/Users/ahsam
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+File1
+Google Drive
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd OS_LAB2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % ls
+D1		OS_LAB_SUB_2
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB2 % cd D1
+(base) ahsam@MDs-MacBook-Air-2 D1 % ls
+D2
+(base) ahsam@MDs-MacBook-Air-2 D1 % cd D2
+(base) ahsam@MDs-MacBook-Air-2 D2 % ls
+D3
+(base) ahsam@MDs-MacBook-Air-2 D2 % cd D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+(base) ahsam@MDs-MacBook-Air-2 D3 % pwd
+/Users/ahsam/OS_LAB2/D1/D2/D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % cat>f1
+This is test file name : Test 1 
+Test Text 
+ula la la a a    
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1
+(base) ahsam@MDs-MacBook-Air-2 D3 % wd
+zsh: command not found: wd
+(base) ahsam@MDs-MacBook-Air-2 D3 % pwd
+/Users/ahsam/OS_LAB2/D1/D2/D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % cat>f2
+This is file 2 in D3 folder 
+test file text  
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1	f2
+(base) ahsam@MDs-MacBook-Air-2 D3 % cat f1>>f2
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1	f2
+(base) ahsam@MDs-MacBook-Air-2 D3 % cat f2
+This is file 2 in D3 folder 
+test file text 
+This is test file name : Test 1 
+Test Text 
+ula la la a a
+(base) ahsam@MDs-MacBook-Air-2 D3 % cat f1 f2 >f3
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1	f2	f3
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1	f2	f3
+(base) ahsam@MDs-MacBook-Air-2 D3 % cp f1 f4 
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1	f2	f3	f4
+(base) ahsam@MDs-MacBook-Air-2 D3 % cat f4
+This is test file name : Test 1 
+Test Text 
+ula la la a a
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1	f2	f3	f4
+(base) ahsam@MDs-MacBook-Air-2 D3 % pwd
+/Users/ahsam/OS_LAB2/D1/D2/D3
+(base) ahsam@MDs-MacBook-Air-2 D3 % ls
+f1	f2	f3	f4
+(base) ahsam@MDs-MacBook-Air-2 D3 % 
+
