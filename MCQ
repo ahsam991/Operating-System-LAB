@@ -1,0 +1,40 @@
+For MCQ 
+(base) ahsam@MDs-MacBook-Air-2 ~ % ncal -M
+ncal: illegal option -- M
+Usage: cal [general options] [-hjy] [[month] year]
+       cal [general options] [-hj] [-m month] [year]
+       ncal [general options] [-hJjpwy] [-s country_code] [[month] year]
+       ncal [general options] [-hJeo] [year]
+General options: [-NC3] [-A months] [-B months]
+For debug the highlighting: [-H yyyy-mm-dd] [-d yyyy-mm]
+(base) ahsam@MDs-MacBook-Air-2 ~ % date
+Tue Nov  4 15:32:51 +06 2025
+(base) ahsam@MDs-MacBook-Air-2 ~ % date +%m
+11
+(base) ahsam@MDs-MacBook-Air-2 ~ % date+%h
+zsh: command not found: date+%h
+(base) ahsam@MDs-MacBook-Air-2 ~ % date +%h%m
+Nov11
+(base) ahsam@MDs-MacBook-Air-2 ~ % date +%h  
+Nov
+(base) ahsam@MDs-MacBook-Air-2 ~ % date +%h+%m
+Nov+11
+(base) ahsam@MDs-MacBook-Air-2 ~ % date +%M
+37
+(base) ahsam@MDs-MacBook-Air-2 ~ % who
+ahsam            console      Oct 28 15:08 
+ahsam            ttys000      Nov  4 15:10 
+(base) ahsam@MDs-MacBook-Air-2 ~ % whoami
+ahsam
+(base) ahsam@MDs-MacBook-Air-2 ~ % logname
+ahsam
+(base) ahsam@MDs-MacBook-Air-2 ~ % bc
+>>> 6+6
+12
+>>> 7+5
+12
+>>> ^D
+(base) ahsam@MDs-MacBook-Air-2 ~ % man date\
+> 
+(base) ahsam@MDs-MacBook-Air-2 ~ % man cal
+(base) ahsam@MDs-MacBook-Air-2 ~ %      
