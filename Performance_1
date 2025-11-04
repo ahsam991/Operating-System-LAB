@@ -1,0 +1,76 @@
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+File1
+LabPerformance1_Ahsam
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % mkdir OS_LAB3
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat f1
+cat: f1: No such file or directory
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat>f1
+This is a test 
+test ^D
+(base) ahsam@MDs-MacBook-Air-2 ~ % wc f1
+       2       5      22 f1
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat f1
+This is a test 
+test 
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat>f2
+ABCDEFGH
+IJKLMNOP
+(base) ahsam@MDs-MacBook-Air-2 ~ % wc f2
+       2       2      18 f2
+(base) ahsam@MDs-MacBook-Air-2 ~ % wc -l f2
+       2 f2
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat>fruits
+apple
+bananna
+orange
+pineapple
+berry
+cherry
+watermellon
+grapes
+guava
+coconut
+apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % nl fruits
+     1	apple
+     2	bananna
+     3	orange
+     4	pineapple
+     5	berry
+     6	cherry
+     7	watermellon
+     8	grapes
+     9	guava
+    10	coconut
+    11	apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % nl -i5 fruits
+     1	apple
+     6	bananna
+    11	orange
+    16	pineapple
+    21	berry
+    26	cherry
+    31	watermellon
+    36	grapes
+    41	guava
+    46	coconut
+    51	apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % 
