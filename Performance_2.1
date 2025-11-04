@@ -1,0 +1,208 @@
+(base) ahsam@MDs-MacBook-Air-2 ~ % sort fruits
+apple
+apple
+bananna
+berry
+cherry
+coconut
+grapes
+guava
+orange
+pineapple
+watermellon
+(base) ahsam@MDs-MacBook-Air-2 ~ % sort -r fruits
+watermellon
+pineapple
+orange
+guava
+grapes
+coconut
+cherry
+berry
+bananna
+apple
+apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % sort -u fruits
+apple
+bananna
+berry
+cherry
+coconut
+grapes
+guava
+orange
+pineapple
+watermellon
+(base) ahsam@MDs-MacBook-Air-2 ~ % head fruits
+apple
+bananna
+orange
+pineapple
+berry
+cherry
+watermellon
+grapes
+guava
+coconut
+(base) ahsam@MDs-MacBook-Air-2 ~ % tell fruits
+zsh: command not found: tell
+(base) ahsam@MDs-MacBook-Air-2 ~ % tail fruits
+bananna
+orange
+pineapple
+berry
+cherry
+watermellon
+grapes
+guava
+coconut
+apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % head -5 fruits
+apple
+bananna
+orange
+pineapple
+berry
+(base) ahsam@MDs-MacBook-Air-2 ~ % tail -5 fruits
+watermellon
+grapes
+guava
+coconut
+apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % pwd 
+/Users/ahsam
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+f1
+f2
+File1
+fruits
+LabPerformance1_Ahsam
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_LAB3
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd OS_LAB#
+cd: no such file or directory: OS_LAB#
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd OS_LAB3
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB3 % ls
+(base) ahsam@MDs-MacBook-Air-2 OS_LAB3 % cd
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+f1
+f2
+File1
+fruits
+LabPerformance1_Ahsam
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_LAB3
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % sort fruits | cat>fruits1
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+f1
+f2
+File1
+fruits
+fruits1
+LabPerformance1_Ahsam
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS_LAB2
+OS_LAB3
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat fruits1
+apple
+apple
+bananna
+berry
+cherry
+coconut
+grapes
+guava
+orange
+pineapple
+watermellon
+(base) ahsam@MDs-MacBook-Air-2 ~ % sort fruits |nl fruits |cat>fruits2
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat fruits2
+     1	apple
+     2	bananna
+     3	orange
+     4	pineapple
+     5	berry
+     6	cherry
+     7	watermellon
+     8	grapes
+     9	guava
+    10	coconut
+    11	apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat fruits1
+apple
+apple
+bananna
+berry
+cherry
+coconut
+grapes
+guava
+orange
+pineapple
+watermellon
+(base) ahsam@MDs-MacBook-Air-2 ~ % sort fruits2 | nl | cat>fruits4
+(base) ahsam@MDs-MacBook-Air-2 ~ % cap fruits4
+zsh: command not found: cap
+(base) ahsam@MDs-MacBook-Air-2 ~ % cat fruits4
+     1	     1	apple
+     2	     2	bananna
+     3	     3	orange
+     4	     4	pineapple
+     5	     5	berry
+     6	     6	cherry
+     7	     7	watermellon
+     8	     8	grapes
+     9	     9	guava
+    10	    10	coconut
+    11	    11	apple
+(base) ahsam@MDs-MacBook-Air-2 ~ % 
