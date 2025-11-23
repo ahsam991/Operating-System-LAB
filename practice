@@ -1,0 +1,149 @@
+Last login: Tue Nov 18 15:20:22 on ttys000
+(base) ahsam@MDs-MacBook-Air-2 ~ % ls
+anaconda_projects
+Applications
+data
+Desktop
+Documents
+Downloads
+LabPerformance1_Ahsam
+Library
+mongodb-macos-aarch64-8.0.12
+Movies
+Music
+new part .ipynb
+OneDrive - American International University-Bangladesh
+OS task 1
+OS_LAB2
+OS_LAB3
+OS_last
+OS_Practice
+Pictures
+Postman
+Public
+PycharmProjects
+(base) ahsam@MDs-MacBook-Air-2 ~ % cd OS_Practice
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % ls
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat >>Country
+Argentina 
+Bangladesh
+Canada
+Denmark
+England
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % ls
+Country
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat >>City
+Cumilla
+Dhaka 
+Feni 
+Noakhali
+Chandpur
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % ls
+City	Country
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % wc Country
+       5       5      44 Country
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % wc -l Country City  
+       5 Country
+       5 City
+      10 total
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % wc -l Country City | cat >Count   
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % ls
+City	Count	Country
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat Count
+       5 Country
+       5 City
+      10 total
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % sort Country City | -nl | cat Country City f1
+zsh: command not found: -nl
+Argentina
+Bangladesh
+Canada
+Denmark
+England
+Cumilla
+Dhaka
+Feni 
+Noakhali
+Chandpur
+cat: f1: No such file or directory
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % ls 
+City	Count	Country
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat Count
+       5 Country
+       5 City
+      10 total
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % sort Country City | nl | cat Country City f1
+Argentina
+Bangladesh
+Canada
+Denmark
+England
+Cumilla
+Dhaka
+Feni 
+Noakhali
+Chandpur
+cat: f1: No such file or directory
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % sort Country City | nl | cat Country City > f1
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat f1
+Argentina
+Bangladesh
+Canada
+Denmark
+England
+Cumilla
+Dhaka
+Feni 
+Noakhali
+Chandpur
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % sort Country City | nl | cat > f1 
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat f1
+     1	Argentina
+     2	Bangladesh
+     3	Canada
+     4	Chandpur
+     5	Cumilla
+     6	Denmark
+     7	Dhaka
+     8	England
+     9	Feni 
+    10	Noakhali
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat >>employee
+1,Ahsam,cse,5000
+2,Saiba,eee,6000
+3,anas,math,7000
+4,adil,phy,8000
+5,tonoy,bio,9000
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % 
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % ls
+City		Count		Country		employee	f1
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cad employee
+zsh: command not found: cad
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % 
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cat employee
+1,Ahsam,cse,5000
+2,Saiba,eee,6000
+3,anas,math,7000
+4,adil,phy,8000
+5,tonoy,bio,9000
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % r employee
+fc: event not found: employee
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % -r employee
+zsh: command not found: -r
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cut -d "'" -f 3 employee
+1,Ahsam,cse,5000
+2,Saiba,eee,6000
+3,anas,math,7000
+4,adil,phy,8000
+5,tonoy,bio,9000
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cut -d "," -f 3 employee | sort -r 
+phy
+math
+eee
+cse
+bio
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cut -d "," -f 3 employee | tac    
+zsh: command not found: tac
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % cut -d "," -f 3 employee | sort tac
+sort: No such file or directory
+(base) ahsam@MDs-MacBook-Air-2 OS_Practice % 
